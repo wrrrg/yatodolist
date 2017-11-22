@@ -1,6 +1,7 @@
 body {
   background-color: rgb(17, 34, 105);
   color: rgb(223, 215, 206);
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -22,12 +23,54 @@ header li {
 
 header li:hover {
   cursor: default;
+  color: white;
 }
 
 header ul a {
   text-decoration: none;
 
 }
+
+/* checkmark / delete */
+
+.list-checkmark {
+  position: absolute;
+  color: rgb(136, 205, 115);
+  cursor: default;
+  float: right;
+  padding: 0 20px;
+  right: 20px;
+}
+
+.list-checkmark:hover {
+  color: rgb(90, 247, 43);
+}
+
+.list-reactivate{
+  position: absolute;
+  float: right;
+  right: 20px;
+  padding: 0 20px;
+  color: rgba(238, 212, 72, 0.83);
+  cursor: default;
+}
+
+.list-reactivate:hover {
+  color: rgb(246, 244, 37);
+}
+
+.list-delete {
+  color: rgb(223, 142, 137);
+  cursor: default;
+  float: right;
+  padding-right: 10px;
+}
+
+.list-delete:hover {
+  color: rgb(246, 18, 18);
+}
+
+
 
 /* Toggle Classes */
 

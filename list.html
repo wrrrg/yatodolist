@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>YA Todo List</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="list.css">
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -25,14 +26,16 @@
     </header>
   <div class="container">
     <ol id="todo-list-active" class="todo-shown">
-      <li>list</li>
-      <li>lorem</li>
-      <li>ipsum</li>
+      <li>list <span class="list-item-btns"><span class="list-checkmark">&#10003;</span><span class="list-delete"> X </span></span></li>
+      <li>lorem <span class="list-item-btns"><span class="list-checkmark">&#10003;</span><span class="list-delete"> X </span></span></li>
+      <li>ipsum <span class="list-item-btns"><span class="list-checkmark">&#10003;</span><span class="list-delete"> X </span></span></li>
     </ol>
 
+
+
     <ol id="todo-list-finished" class="finished-hidden">
-      <li>Finished</li>
-      <li>Ipsum</li>
+      <li>Finished <span class="list-item-btns"><span class="list-reactivate">&#8592;</span><span class="list-delete"> X </span></span></li>
+      <li>Ipsum <span class="list-item-btns"><span class="list-reactivate">&#8592;</span><span class="list-delete"> X </span></span></li>
     </ol>
 
     <form id="create-new">
