@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(17, 34, 105);
+  color: rgb(223, 215, 206);
+}
+
+header {
+  /*position: fixed;
+  top: 0;
+  left: 0;*/
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+
+}
+
+header li {
+  display: inline;
+  padding: 20px;
+}
+
+header li:hover {
+  cursor: default;
+}
+
+header ul a {
+  text-decoration: none;
+
+}
+
+/* Toggle Classes */
+
+.finished-hidden {
+  display: none;
+}
+/*
+.todo-hidden {
+  display: none;
+}
+
+.todo-shown {
+  display: block;
+}
+
+.finished-shown {
+  display: block;
+}*/

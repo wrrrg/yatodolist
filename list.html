@@ -3,18 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>YA Todo List</title>
+    <link rel="stylesheet" href="list.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+
   </head>
   <body>
-
+<header>
     <h1>Yet another Todo List</h1> <h3>Let's Get Shit Done</h3>
+
+  <ul>
+    <li id="view-current-link" href="#">View Current Todos</li>
+    <li id="view-finished-link" href="#">View Finished Todos</li>
+  </ul>
 
     <hr>
 
-    <ol>
+    </header>
+  <div class="container">
+    <ol id="todo-list-active" class="todo-shown">
       <li>list</li>
       <li>lorem</li>
       <li>ipsum</li>
     </ol>
 
+    <ol id="todo-list-finished" class="finished-hidden">
+      <li>Finished</li>
+      <li>Ipsum</li>
+    </ol>
+
+    <form id="create-new">
+      <input type="text" id="create-new-field"></input>
+      <button id="create-new-button">Create a New Task</button>
+    </form>
+    <button>Completed Task!</button>
+    <button>Remove Task</button>
+  </div>
+    <script type="text/javascript" src="list.js">
+
+    </script>
   </body>
 </html>
