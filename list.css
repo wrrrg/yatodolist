@@ -1,7 +1,8 @@
 body {
   background-color: rgb(17, 34, 105);
-  color: rgb(223, 215, 206);
+  color: rgb(200, 185, 186);
   font-family: 'Raleway', sans-serif;
+  cursor: default;
 }
 
 header {
@@ -89,3 +90,43 @@ header ul a {
 .finished-shown {
   display: block;
 }*/
+
+
+
+/* create new button */
+
+.create-new-form {
+
+  display: none;
+}
+
+.create-new-show:hover {
+  color: white;
+}
+
+.create-new-field {
+  background: rgba(143, 224, 246, 0.3);
+  border: none;
+  color: white;
+
+}
+
+.create-new-button {
+
+  cursor: default;
+}
+
+.create-new-button:hover {
+  color: white;
+}
+
+.create-new-hide {
+  color: rgb(223, 142, 137);
+  cursor: default;
+
+  padding-left: 30px;
+}
+
+.create-new-hide:hover {
+  color: rgb(246, 18, 18);
+}
